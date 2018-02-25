@@ -1,0 +1,13 @@
+﻿@model Vidly.Models.Movie 
+
+
+@{
+    ViewBag.Title = "Random";
+    // common latout 
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*this view as a property where we can access the model that has been passed to it
+by the controller*@
+<h2>@Model.Name</h2>
+
